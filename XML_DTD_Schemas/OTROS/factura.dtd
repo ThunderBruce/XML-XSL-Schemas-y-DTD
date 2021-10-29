@@ -1,0 +1,7 @@
+<!ELEMENT factura (datos_empresa, datos_cliente, datos_factura)>
+<!ELEMENT datos_empresa (nombre, dir, poblacion,  provincia, cif, telefono)>
+<!ELEMENT datos_cliente (nombre, dir_env, poblacion,  provincia)>
+<!ELEMENT datos_factura (fecha,f_pago, linea+,  base, iva, cuota_iva, total )>
+<!ATTLIST factura n_fac NMTOKEN #REQUIRED>
+<!ATTLIST datos_cliente n_cli NMTOKEN #REQUIRED>
+<!ATTLIST datos_factura n_ped NMTOKEN  #REQUIRED>

@@ -1,0 +1,30 @@
+table, tr, th, td {
+	border: solid 1px; 
+	border-color: gray; 
+	border-collapse: collapse; 
+	margin: auto; }
+
+th.primero {
+	width: 300px;
+}
+th.primerob{
+	width: 100px;
+}
+th.segundoa{
+	width: 75px;
+}
+th.segundob{
+	width: 125px;
+}
+th.segundoc{
+	width: 100px;
+}
+th.segundod{
+	width: 30px;
+}
+th.segundoe{
+	width: 40px;
+}
+th.segundof{
+	width: 30px;
+}
